@@ -50,7 +50,7 @@ Add this server to your MCP configuration file (typically `%APPDATA%\Code\User\g
   "mcpServers": {
     "karbon-server": {
       "command": "node",
-      "args": ["C:/Users/MDucharme/OneDrive - Beppel & Associates PC/Documents/Cline/MCP/karbon-server/build/index.js"],
+      "args": ["/path/to/karbon-mcp-server/build/index.js"],
       "env": {
         "KARBON_BEARER_TOKEN": "your_bearer_token_here",
         "KARBON_ACCESS_KEY": "your_access_key_here"
@@ -59,6 +59,8 @@ Add this server to your MCP configuration file (typically `%APPDATA%\Code\User\g
   }
 }
 ```
+
+**Note**: Replace `/path/to/karbon-mcp-server/` with the actual path where you cloned/downloaded this repository.
 
 ## Getting Karbon API Credentials
 

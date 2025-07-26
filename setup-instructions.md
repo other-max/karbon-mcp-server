@@ -25,7 +25,7 @@ Your Karbon MCP server has been successfully created and compiled. Here's how to
   "mcpServers": {
     "karbon-server": {
       "command": "node",
-      "args": ["C:/Users/MDucharme/OneDrive - Beppel & Associates PC/Documents/Cline/MCP/karbon-server/build/index.js"],
+      "args": ["/path/to/karbon-mcp-server/build/index.js"],
       "env": {
         "KARBON_BEARER_TOKEN": "your_actual_bearer_token_here",
         "KARBON_ACCESS_KEY": "your_actual_access_key_here"
@@ -34,6 +34,12 @@ Your Karbon MCP server has been successfully created and compiled. Here's how to
   }
 }
 ```
+
+**Important**: Replace `/path/to/karbon-mcp-server/` with the actual path where you cloned this repository.
+
+**Examples**:
+- Windows: `"C:/Users/YourUsername/Documents/karbon-mcp-server/build/index.js"`
+- Mac/Linux: `"/Users/YourUsername/Documents/karbon-mcp-server/build/index.js"`
 
 ### Option B: Manual Configuration File
 

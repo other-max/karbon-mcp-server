@@ -2,7 +2,7 @@
   "mcpServers": {
     "karbon-server": {
       "command": "node",
-      "args": ["C:/Users/MDucharme/OneDrive - Beppel & Associates PC/Documents/Cline/MCP/karbon-server/build/index.js"],
+      "args": ["/path/to/karbon-mcp-server/build/index.js"],
       "env": {
         "KARBON_BEARER_TOKEN": "your_bearer_token_here",
         "KARBON_ACCESS_KEY": "your_access_key_here"
